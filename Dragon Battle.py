@@ -172,3 +172,11 @@ while Dragon > 0 and Player_HP > 0:
 
 if Player_HP <= 0:
     print("YOU LOST!!!!")
+
+
+# ==================================================================
+# (ORGANIZE WITH THE HELP OF AI)
+# ==================================================================
+# (This project was written by MXSYZ (me) from scratch)
+# (AI assistance was used for debugging and learning purposes only)
+# ==================================================================
