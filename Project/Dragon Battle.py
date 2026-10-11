@@ -69,17 +69,20 @@ def Dragon_attack():
     Dragon_ATK_chance = random.randint(1, 5)
     print("The Dragon is making a move...")
     for x in range(3, 0 , -1):
-        time.sleep(1)
+        time.sleep(0.5)
         print(f"{x}...")
     if Dragon_ATK_chance == 3 or Dragon_ATK_chance == 4:
             Dragon_ATK_dmg = random.randint(10, 200)
             Player_HP -= Dragon_ATK_dmg
+            time.sleep(0.5)
             print(f"The dragon attacked you! for {Dragon_ATK_dmg}, you\'re now at {Player_HP}")
     elif Dragon_ATK_chance == 5:
             Dragon_ATK_dmg_crit = random.randint(300, 450)
             Player_HP -= Dragon_ATK_dmg_crit
+            time.sleep(0.5)
             print(f"The dragon attacked you! critical!!! {Dragon_ATK_dmg_crit}, you\'re now at {Player_HP}")
     else:
+        time.sleep(0.5)
         print(f"the dragon back down... for now... you\'re at {Player_HP}")
 
 
